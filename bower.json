@@ -1,0 +1,31 @@
+{
+  "name": "paper-range-slider",
+  "authors": [
+    "Iftach Sadeh <iftach.sadeh@desy.de>"
+  ],
+  "description": "A material design-style range-slider, composed of paper-slider elements, and using Polymer.IronRangeBehavior",
+  "keywords": [
+    "web-component",
+    "web-components",
+    "polymer",
+    "slider"
+  ],
+  "main": "paper-range-slider.html",
+  "license": "MIT",
+  "ignore": [
+    "/.*",
+    "/test/",
+    "/demo/"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^2.0.0",
+    "paper-input": "PolymerElements/paper-input#^2.0.0",
+    "paper-progress": "PolymerElements/paper-progress#^2.0.0",
+    "iron-flex-layout": "PolymerElements/iron-flex-layout#^2.0.0",
+    "paper-styles": "PolymerElements/paper-styles#^2.0.0",
+    "iron-behaviors": "PolymerElements/iron-behaviors#^2.0.0",
+    "paper-behaviors": "PolymerElements/paper-behaviors#^2.0.0",
+    "iron-a11y-keys-behavior": "PolymerElements/iron-a11y-keys-behavior#^2.0.0",
+    "iron-form-element-behavior": "PolymerElements/iron-form-element-behavior#^2.0.0"
+  }
+}
